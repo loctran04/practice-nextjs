@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First create a env file from the example file `.env.example`
+Update your DATABASE_URL base on your DB
+
+Run `npx prisma migrate dev`
+
+Run `npx prisma db seed`
+
+Then, run the development server:
 
 ```bash
 npm run dev
